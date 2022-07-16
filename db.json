@@ -16,27 +16,148 @@
       "email": "anh@gmail.com",
       "address": "25, rue Lauriston, Paris, France",
       "phoneNumber": "(503) 555-9931",
-      "birthday": " 11/10/2000",
+      "birthday": " 2005-10-11",
       "role": "admin",
       "gender": "Nữ",
       "password": "311111"
     },
     {
-      "id": 4,
-      "name": "Nguyễn Văn A",
-      "email": "nva@gmail.com",
-      "address": "89 Chiaroscuro Rd, Portland, USA",
-      "phoneNumber": "(171) 555-2222",
-      "birthday": " 11/10/2000",
+      "name": "Le Thi B",
+      "email": "b@gmail.com",
+      "birthday": "2005-10-11",
       "role": "user",
+      "gender": "Nữ",
+      "password": "111111",
+      "id": 6,
+      "address": "Hà nội",
+      "phoneNumber": "0523904232"
+    },
+    {
+      "name": "Kim anh",
+      "email": "anh2@gmail.com",
+      "birthday": "2022-07-19",
+      "role": "user",
+      "gender": "Nữ",
+      "password": "123456",
+      "id": 7,
+      "address": "Quỳnh Phụ, Thái Bình",
+      "phoneNumber": "0359127610"
+    },
+    {
+      "name": "Mạnh nguyễn",
+      "email": "manh@gmail.com",
+      "address": "Thái bình",
+      "phoneNumber": "09999999999",
+      "birthday": "2022-06-07",
+      "role": "admin",
       "gender": "Nam",
-      "password": "211111"
+      "password": "111111",
+      "id": 8
+    }
+  ],
+  "auth": [
+    {
+      "user_id": 8,
+      "role": "user",
+      "email": "manh@gmail.com",
+      "password": "111111",
+      "id": 2
+    },
+    {
+      "user_id": 8,
+      "role": "user",
+      "email": "manh@gmail.com",
+      "password": "111111",
+      "id": 3
+    },
+    {
+      "user_id": 8,
+      "role": "user",
+      "email": "manh@gmail.com",
+      "password": "111111",
+      "id": 4
+    },
+    {
+      "user_id": 8,
+      "role": "user",
+      "email": "manh@gmail.com",
+      "password": "111111",
+      "id": 5
+    },
+    {
+      "user_id": 8,
+      "role": "user",
+      "email": "manh@gmail.com",
+      "password": "111111",
+      "id": 6
+    },
+    {
+      "user_id": 8,
+      "role": "user",
+      "email": "manh@gmail.com",
+      "password": "111111",
+      "id": 7
+    },
+    {
+      "user_id": 8,
+      "role": "user",
+      "email": "manh@gmail.com",
+      "password": "111111",
+      "login_at": "7/14/2022, 4:46:44 PM",
+      "id": 8
+    },
+    {
+      "user_id": 8,
+      "role": "user",
+      "email": "manh@gmail.com",
+      "password": "111111",
+      "login_at": "7/14/2022, 4:47:26 PM",
+      "id": 9
+    },
+    {
+      "user_id": 3,
+      "role": "user",
+      "email": "anh@gmail.com",
+      "password": "311111",
+      "login_at": "7/14/2022, 4:48:49 PM",
+      "id": 10
+    },
+    {
+      "user_id": 3,
+      "role": "user",
+      "email": "anh@gmail.com",
+      "password": "311111",
+      "login_at": "7/14/2022, 4:53:43 PM",
+      "id": 11
+    },
+    {
+      "user_id": 8,
+      "role": "user",
+      "email": "manh@gmail.com",
+      "password": "111111",
+      "login_at": "7/15/2022, 8:26:16 PM",
+      "id": 12
+    },
+    {
+      "user_id": 8,
+      "role": "user",
+      "email": "manh@gmail.com",
+      "password": "111111",
+      "login_at": "7/16/2022, 2:37:16 PM",
+      "id": 13
+    },
+    {
+      "user_id": 7,
+      "role": "user",
+      "email": "anh2@gmail.com",
+      "password": "123456",
+      "id": 14
     }
   ],
   "collection": [
     {
-      "id": 1,
-      "title": "Tee"
+      "id": 0,
+      "title": "All"
     },
     {
       "id": 2,
@@ -55,10 +176,6 @@
       "id": 5
     },
     {
-      "title": "Jacket",
-      "id": 6
-    },
-    {
       "title": "Pants",
       "id": 7
     },
@@ -69,6 +186,10 @@
     {
       "title": "Accessories",
       "id": 9
+    },
+    {
+      "id": 1,
+      "title": "Tee"
     }
   ],
   "product": [
@@ -77,6 +198,7 @@
       "subtle": "AOSM0044",
       "collection_id": 1,
       "prices": 320000,
+      "number": 50,
       "imgFront": "https://product.hstatic.net/200000436739/product/a0ddcb1a-8a15-4b28-973e-baf6900b076e_50ba0323a16a41f19541ff86978f0a2b_master.jpeg",
       "imgBack": "https://product.hstatic.net/200000436739/product/aa4c5674-1772-4b8c-9e89-bd0393430425_0a1b37baa06b4de08d14a31c61369202_grande.jpeg",
       "size": [
@@ -89,7 +211,12 @@
           "name": "L"
         }
       ],
-      "color": [],
+      "color": [
+        {
+          "idColor": "#5280a9",
+          "name_color": "Blue"
+        }
+      ],
       "gallery": [
         {
           "id": 1,
@@ -115,18 +242,14 @@
       "subtle": "",
       "collection_id": 2,
       "prices": 420000,
-      "imgFront": "https://product.hstatic.net/200000436739/product/366ea83c-f73c-4282-a1d2-5087e7e94887_011b757fd91342bc9d1ccb2b80f12408_master.jpeg",
-      "imgBack": "https://product.hstatic.net/200000436739/product/b071dfd9-1797-433f-9393-ef80ef6c4791_7b78e576d6584834ae790eb332548f9e_master.jpeg",
+      "imgFront": "https://product.hstatic.net/200000436739/product/94_b92123aed64c45e9bfa22b14696945b3_master.jpg",
+      "imgBack": "https://product.hstatic.net/200000436739/product/95_copy_5bb6a474ba0048c1bc6628ed67b2fb14_master.jpg",
       "number": 13,
       "id": 7,
       "color": [
         {
-          "idColor": "#000000",
-          "name_color": "Black"
-        },
-        {
-          "idColor": "#ffffff",
-          "name_color": "White"
+          "idColor": "#603b31",
+          "name_color": "CARAMEL"
         }
       ],
       "size": [
@@ -142,19 +265,19 @@
       "gallery": [
         {
           "id": 1,
-          "src": "https://product.hstatic.net/200000436739/product/366ea83c-f73c-4282-a1d2-5087e7e94887_011b757fd91342bc9d1ccb2b80f12408_master.jpeg"
+          "src": "https://product.hstatic.net/200000436739/product/58_22f7eceba1ec4885aa45908773c82787_master.jpg"
         },
         {
           "id": 2,
-          "src": "https://product.hstatic.net/200000436739/product/b071dfd9-1797-433f-9393-ef80ef6c4791_7b78e576d6584834ae790eb332548f9e_master.jpeg"
+          "src": "https://product.hstatic.net/200000436739/product/58_22f7eceba1ec4885aa45908773c82787_master.jpg"
         },
         {
           "id": 3,
-          "src": "https://product.hstatic.net/200000436739/product/d66e1d5f-89af-4aaa-9646-70c6a695a81f_fc3db306da334f708f65f9f06a0f82c4_master.jpeg"
+          "src": "https://product.hstatic.net/200000436739/product/59_4d5f8d4c6e1c41db95cc04db9f5675ff_master.jpg"
         },
         {
           "id": 4,
-          "src": "https://product.hstatic.net/200000436739/product/3d2e94a8-c462-4b32-9237-5be6a0265230_54bd010771444b5ba60199199ac377fa_master.jpeg"
+          "src": "https://product.hstatic.net/200000436739/product/61_ba82fa5b351640fa91c99431cce8633f_master.jpg"
         }
       ]
     },
@@ -163,6 +286,7 @@
       "subtle": " AOSM0073",
       "collection_id": 1,
       "prices": 320000,
+      "number": 20,
       "imgFront": "https://product.hstatic.net/200000436739/product/upload_d63850b1e37b49afb17f158896762fe6_master.jpg",
       "imgBack": "https://product.hstatic.net/200000436739/product/upload_c2b84c52389f43499247fff1e83ca498_master.jpg",
       "size": [
@@ -175,7 +299,12 @@
           "name": "L"
         }
       ],
-      "color": [],
+      "color": [
+        {
+          "idColor": "#bfa18f",
+          "name_color": "Tan"
+        }
+      ],
       "gallery": [
         {
           "id": 1,
@@ -204,6 +333,7 @@
       "imgFront": "https://product.hstatic.net/200000436739/product/0db50047-70f4-4bc3-8e1e-9a48be0e49b0_a207335ee455425d9ebca682512e962b_master.jpeg",
       "imgBack": "https://product.hstatic.net/200000436739/product/c59c8964-bc3e-43bd-b34a-666e85267f30_73a56cbd9b724ce79e0ca1ab1babde53_master.jpeg",
       "size": [],
+      "number": 10,
       "color": [
         {
           "idColor": "#000000",
@@ -231,6 +361,7 @@
       "subtle": "QUP0023",
       "collection_id": 7,
       "prices": 390000,
+      "number": 10,
       "imgFront": "https://product.hstatic.net/200000436739/product/upload_0eb338311a004b5da5cdcfe154515acc_master.jpg",
       "imgBack": "https://product.hstatic.net/200000436739/product/upload_882ee0f59c1047658e7a7927cfe54553_master.jpg",
       "size": [
@@ -277,7 +408,12 @@
       "prices": 580000,
       "imgFront": "https://product.hstatic.net/200000436739/product/upload_8906ab72b3de48719d1405a4a98a6a11_master.jpg",
       "imgBack": "https://product.hstatic.net/200000436739/product/upload_0f991966221348ef8553e3fc304c618a_master.jpg",
-      "color": [],
+      "color": [
+        {
+          "idColor": "#d2d0d1",
+          "name_color": "LIGHT GREY"
+        }
+      ],
       "size": [
         {
           "id": 1,
@@ -320,32 +456,24 @@
         {
           "idColor": "#000000",
           "name_color": "Black"
-        },
-        {
-          "idColor": "#ffffff",
-          "name_color": "White"
-        },
-        {
-          "idColor": "#217537",
-          "name_color": "Green"
         }
       ],
       "gallery": [
         {
           "id": 1,
-          "src": "https://product.hstatic.net/200000436739/product/5d6db5f7-0627-480b-8c20-a28fb5449baa_ac98cb7fc1ff4cad881e8301ac97e36a_master.jpeg"
+          "src": "https://product.hstatic.net/200000436739/product/upload_156096c5cfe44e4abcb6280199f16bb0_master.jpg"
         },
         {
           "id": 2,
-          "src": "https://product.hstatic.net/200000436739/product/ed6caabb-0b04-48e4-8543-b2851d729769_8cbf068240584a54902a7044ef3f894b_master.jpeg"
+          "src": "https://product.hstatic.net/200000436739/product/upload_557483cf4b104867a6a2baf968d44e96_master.jpg"
         },
         {
           "id": 3,
-          "src": "https://product.hstatic.net/200000436739/product/28deed71-c16f-431e-bbea-d97914dba463_54bf1579a753450db9f084955c740197_master.jpeg"
+          "src": "https://product.hstatic.net/200000436739/product/upload_07bd965b82074eaaa80ef4874fd7056e_master.jpg"
         },
         {
           "id": 4,
-          "src": "https://product.hstatic.net/200000436739/product/upload_93bc74a376b140db8280a2f60ee5567d_master.jpg"
+          "src": "https://product.hstatic.net/200000436739/product/upload_557483cf4b104867a6a2baf968d44e96_master.jpg"
         }
       ],
       "id": 14
@@ -356,8 +484,8 @@
       "collection_id": 3,
       "number": 58,
       "prices": 590000,
-      "imgFront": "https://product.hstatic.net/200000436739/product/5d6db5f7-0627-480b-8c20-a28fb5449baa_ac98cb7fc1ff4cad881e8301ac97e36a_master.jpeg",
-      "imgBack": "https://product.hstatic.net/200000436739/product/ed6caabb-0b04-48e4-8543-b2851d729769_8cbf068240584a54902a7044ef3f894b_master.jpeg",
+      "imgFront": "https://product.hstatic.net/200000436739/product/79_a5575606e126409fb19cb411c1079da6_master.jpg ",
+      "imgBack": "https://product.hstatic.net/200000436739/product/80_d610848366d14df7943f9c679ec54822_master.jpg",
       "color": [
         {
           "idColor": "#000000",
@@ -389,43 +517,274 @@
       "gallery": [
         {
           "id": 1,
-          "src": "https://product.hstatic.net/200000436739/product/5d6db5f7-0627-480b-8c20-a28fb5449baa_ac98cb7fc1ff4cad881e8301ac97e36a_master.jpeg"
+          "src": "https://product.hstatic.net/200000436739/product/5d6db5f7-0627-480b-8c20-a28fb544_28f77f7076434e749f4e9e1f6976ae37_master.jpg"
         },
         {
           "id": 2,
-          "src": "https://product.hstatic.net/200000436739/product/ed6caabb-0b04-48e4-8543-b2851d729769_8cbf068240584a54902a7044ef3f894b_master.jpeg"
+          "src": "https://product.hstatic.net/200000436739/product/28deed71-c16f-431e-bbea-d97914db_83615fa7e9c24bf383be46e46f842cde_master.jpg"
         },
         {
           "id": 3,
-          "src": "https://product.hstatic.net/200000436739/product/28deed71-c16f-431e-bbea-d97914dba463_54bf1579a753450db9f084955c740197_master.jpeg"
+          "src": "https://product.hstatic.net/200000436739/product/79_a5575606e126409fb19cb411c1079da6_master.jpg"
         },
         {
           "id": 4,
-          "src": "https://product.hstatic.net/200000436739/product/upload_93bc74a376b140db8280a2f60ee5567d_master.jpg"
+          "src": "https://product.hstatic.net/200000436739/product/80_d610848366d14df7943f9c679ec54822_master.jpg"
         }
       ],
       "id": 15
+    },
+    {
+      "name": "CND LAIXE TEE PURPLE - CLT PURPLE",
+      "subtle": "",
+      "collection_id": 1,
+      "prices": 300000,
+      "imgFront": "https://product.hstatic.net/200000436739/product/1_b76954f77ea04a3183590011d7e6d2f4_master.jpg",
+      "imgBack": "https://product.hstatic.net/200000436739/product/2_af4b46a2fef14d1991615fae36e6d77a_master.jpg",
+      "size": [
+        {
+          "id": 1,
+          "name": "M"
+        },
+        {
+          "id": 2,
+          "name": "L"
+        }
+      ],
+      "color": [
+        {
+          "idColor": "#b5a4ca",
+          "name_color": "PURPLE"
+        }
+      ],
+      "gallery": [
+        {
+          "id": 1,
+          "src": "https://product.hstatic.net/200000436739/product/1_b76954f77ea04a3183590011d7e6d2f4_master.jpg"
+        },
+        {
+          "id": 2,
+          "src": "https://product.hstatic.net/200000436739/product/2_af4b46a2fef14d1991615fae36e6d77a_master.jpg"
+        },
+        {
+          "id": 3,
+          "src": "https://product.hstatic.net/200000436739/product/3_4b98e15957234e0d9c6fc0827276e64f_master.jpgg"
+        },
+        {
+          "id": 4,
+          "src": "https://product.hstatic.net/200000436739/product/4_a92e0d5ffa7c4c7a9b871e1540d30f45_master.jpg"
+        }
+      ],
+      "id": 16
+    },
+    {
+      "name": "INFINITY DRESSE",
+      "subtle": "",
+      "collection_id": 8,
+      "prices": 490000,
+      "imgFront": "https://product.hstatic.net/200000436739/product/c27caa8f-51a2-441f-915d-24b128c95632_de77faa2eb084c96833e0452c6125259_master.jpeg",
+      "imgBack": "https://product.hstatic.net/200000436739/product/73a9ce7e-99e9-4ff5-9b47-fd7f16adc765_af3a6bf3d7cd49769f95184b79308b79_master.jpeg",
+      "size": [],
+      "color": [
+        {
+          "idColor": "#000000",
+          "name_color": "Black"
+        },
+        {
+          "idColor": "#ffffff",
+          "name_color": "white"
+        }
+      ],
+      "gallery": [
+        {
+          "id": 1,
+          "src": "https://product.hstatic.net/200000436739/product/c27caa8f-51a2-441f-915d-24b128c95632_de77faa2eb084c96833e0452c6125259_master.jpegg"
+        },
+        {
+          "id": 2,
+          "src": "https://product.hstatic.net/200000436739/product/73a9ce7e-99e9-4ff5-9b47-fd7f16adc765_af3a6bf3d7cd49769f95184b79308b79_master.jpeg"
+        },
+        {
+          "id": 3,
+          "src": "https://product.hstatic.net/200000436739/product/b191bfdf-38cd-4979-8841-92c9a34bfb57_b05ed09b80f74d90a65a9e2f5427a752_master.jpeg"
+        },
+        {
+          "id": 4,
+          "src": "https://product.hstatic.net/200000436739/product/88_676a97258a4e4a0a94dc11480f53ad0c_master.jpg"
+        },
+        {
+          "id": 5,
+          "src": "https://product.hstatic.net/200000436739/product/89_bb7bd46760084161a129833974aafce5_master.jpg"
+        }
+      ],
+      "id": 17
+    },
+    {
+      "name": "VỚ CND OCTOPUS SOCK",
+      "subtle": "ACC00200",
+      "collection_id": 9,
+      "prices": 180000,
+      "imgFront": "https://product.hstatic.net/200000436739/product/upload_126ff935f158411ea62bc777c94b833e_master.jpg",
+      "imgBack": "https://product.hstatic.net/200000436739/product/upload_91f23a7103fe40a2933b77a4e0617168_master.jpg",
+      "size": [],
+      "color": [
+        {
+          "idColor": "#000000",
+          "name_color": "black"
+        },
+        {
+          "idColor": "green",
+          "name_color": "Green"
+        },
+        {
+          "idColor": "blue",
+          "name_color": "blue"
+        }
+      ],
+      "gallery": [
+        {
+          "id": 1,
+          "src": "https://product.hstatic.net/200000436739/product/upload_126ff935f158411ea62bc777c94b833e_master.jpg"
+        },
+        {
+          "id": 2,
+          "src": "https://product.hstatic.net/200000436739/product/upload_91f23a7103fe40a2933b77a4e0617168_master.jpg"
+        },
+        {
+          "id": 3,
+          "src": "https://product.hstatic.net/200000436739/product/upload_dfe5ad0d17d24d1e8d2bf9b5aecd3ee7_master.jpg"
+        },
+        {
+          "id": 4,
+          "src": "https://product.hstatic.net/200000436739/product/upload_79a7e7d9a4f743acac9f691f4d1c89a8_master.jpg"
+        },
+        {
+          "id": 5,
+          "src": "https://product.hstatic.net/200000436739/product/89_bb7bd46760084161a129833974aafce5_master.jpg"
+        }
+      ],
+      "id": 18
+    },
+    {
+      "name": "BALO CND BACKPACK SS6",
+      "subtle": "BL001",
+      "collection_id": 9,
+      "prices": 590000,
+      "imgFront": "https://product.hstatic.net/200000436739/product/upload_a01e7ca443bf49928e639aef24c0a613_master.jpg",
+      "imgBack": "https://product.hstatic.net/200000436739/product/upload_eb4df53da85e499d95ab8769f7a5e6d9_master.jpg",
+      "size": [],
+      "color": [
+        {
+          "idColor": "#000000",
+          "name_color": "black"
+        },
+        {
+          "idColor": "#eab4bb",
+          "name_color": "Pink"
+        }
+      ],
+      "gallery": [
+        {
+          "id": 1,
+          "src": "https://product.hstatic.net/200000436739/product/upload_a01e7ca443bf49928e639aef24c0a613_master.jpg"
+        },
+        {
+          "id": 2,
+          "src": "https://product.hstatic.net/200000436739/product/upload_eb4df53da85e499d95ab8769f7a5e6d9_master.jpg"
+        },
+        {
+          "id": 3,
+          "src": "https://product.hstatic.net/200000436739/product/upload_96077fc6d347432bba42401ae3ffa2db_master.jpg"
+        },
+        {
+          "id": 4,
+          "src": "https://product.hstatic.net/200000436739/product/upload_a1314fafa14d4524abc894806ccc0c37_master.jpg"
+        },
+        {
+          "id": 5,
+          "src": "https://product.hstatic.net/200000436739/product/upload_56281445861b402983de239b51e03daa_master.jpg"
+        }
+      ],
+      "id": 19
+    },
+    {
+      "name": "QUẦN NGẮN CND ESSENTIAL SHORT",
+      "subtle": "QUS0033",
+      "collection_id": 7,
+      "prices": 350000,
+      "imgFront": "https://product.hstatic.net/200000436739/product/upload_52a1bf32a4a1415c9d5a8f55aa576159_master.jpg",
+      "imgBack": "https://product.hstatic.net/200000436739/product/upload_97877f6123b149b48d76e3ba4d25c24a_master.jpg",
+      "size": [],
+      "color": [
+        {
+          "idColor": "#000000",
+          "name_color": "black"
+        },
+        {
+          "idColor": "#ffffff",
+          "name_color": "white"
+        }
+      ],
+      "gallery": [
+        {
+          "id": 1,
+          "src": "https://product.hstatic.net/200000436739/product/upload_52a1bf32a4a1415c9d5a8f55aa576159_master.jpg"
+        },
+        {
+          "id": 2,
+          "src": "https://product.hstatic.net/200000436739/product/upload_97877f6123b149b48d76e3ba4d25c24a_master.jpgg"
+        }
+      ],
+      "id": 20
     }
   ],
   "orders": [
     {
-      "id": 1,
-      "user_id": 4,
-      "create_at": "1/1/2021"
+      "id": 15,
+      "user_id": 7,
+      "note": "",
+      "create_at": "7/16/2022, 4:31:05 PM"
     },
     {
-      "id": 2,
-      "user_id": 3,
-      "create_at": "1/1/2021"
+      "id": 99,
+      "user_id": 7,
+      "note": "",
+      "create_at": "7/16/2022, 4:34:04 PM"
     }
   ],
   "order_detail": [
     {
-      "id": 2,
-      "order_id": 1,
-      "product_id": 12,
-      "number": 2,
-      "note": "ABCSĐSFD"
+      "id": 9,
+      "order_id": 15,
+      "product_id": 14,
+      "number": 1,
+      "color": "#000000"
+    },
+    {
+      "id": 65,
+      "order_id": 99,
+      "product_id": 1,
+      "number": 1,
+      "color": "#5280a9",
+      "size": "M"
+    }
+  ],
+  "question": [
+    {
+      "name": "Anh",
+      "email": "a@yahoo.com",
+      "phoneNumber": "111111",
+      "note": "khong co gi ca",
+      "status": 0,
+      "id": 2
+    },
+    {
+      "name": "Anh",
+      "email": "a@yahoo.com",
+      "phoneNumber": "111111",
+      "note": "khong co gi ca",
+      "status": 0,
+      "id": 1
     }
   ]
 }
