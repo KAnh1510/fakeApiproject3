@@ -24,13 +24,13 @@
     {
       "name": "Le Thi B",
       "email": "b@gmail.com",
+      "address": "Hà nội",
+      "phoneNumber": "0523904232",
       "birthday": "2005-10-11",
       "role": "user",
       "gender": "Nữ",
       "password": "111111",
-      "id": 6,
-      "address": "Hà nội",
-      "phoneNumber": "0523904232"
+      "id": 6
     },
     {
       "name": "Kim anh",
@@ -40,7 +40,7 @@
       "gender": "Nữ",
       "password": "123456",
       "id": 7,
-      "address": "Quỳnh Phụ, Thái Bình",
+      "address": "Quỳnh Phụ, Thái Bình 2",
       "phoneNumber": "0359127610"
     },
     {
@@ -152,6 +152,213 @@
       "email": "anh2@gmail.com",
       "password": "123456",
       "id": 14
+    },
+    {
+      "user_id": 6,
+      "role": "user",
+      "email": "b@gmail.com",
+      "password": "111111",
+      "id": 15
+    },
+    {
+      "user_id": 7,
+      "role": "user",
+      "email": "anh2@gmail.com",
+      "password": "123456",
+      "login_at": "7/16/2022, 11:37:01 PM",
+      "id": 16
+    },
+    {
+      "user_id": 6,
+      "role": "user",
+      "email": "b@gmail.com",
+      "password": "111111",
+      "login_at": "7/16/2022, 11:50:50 PM",
+      "id": 17
+    },
+    {
+      "user_id": 6,
+      "role": "user",
+      "email": "b@gmail.com",
+      "password": "111111",
+      "login_at": "7/16/2022, 11:53:26 PM",
+      "id": 18
+    },
+    {
+      "user_id": 6,
+      "role": "user",
+      "email": "b@gmail.com",
+      "password": "111111",
+      "login_at": "7/16/2022, 11:56:09 PM",
+      "id": 19
+    },
+    {
+      "user_id": 7,
+      "role": "user",
+      "email": "anh2@gmail.com",
+      "password": "123456",
+      "login_at": "7/17/2022, 12:01:17 AM",
+      "id": 20
+    },
+    {
+      "user_id": 7,
+      "role": "user",
+      "email": "anh2@gmail.com",
+      "password": "123456",
+      "login_at": "7/17/2022, 12:01:33 AM",
+      "id": 21
+    },
+    {
+      "user_id": 6,
+      "role": "user",
+      "email": "b@gmail.com",
+      "password": "111111",
+      "login_at": "7/17/2022, 12:10:43 AM",
+      "id": 22
+    },
+    {
+      "user_id": 6,
+      "role": "user",
+      "email": "b@gmail.com",
+      "password": "111111",
+      "login_at": "7/17/2022, 12:19:49 AM",
+      "id": 23
+    },
+    {
+      "user_id": 6,
+      "role": "user",
+      "email": "b@gmail.com",
+      "password": "111111",
+      "login_at": "7/17/2022, 12:26:15 AM",
+      "id": 24
+    },
+    {
+      "user_id": 8,
+      "role": "user",
+      "email": "manh@gmail.com",
+      "password": "111111",
+      "login_at": "7/17/2022, 10:55:32 AM",
+      "id": 25
+    },
+    {
+      "user_id": 6,
+      "role": "user",
+      "email": "b@gmail.com",
+      "password": "111111",
+      "login_at": "7/17/2022, 11:13:28 AM",
+      "id": 26
+    },
+    {
+      "user_id": 6,
+      "role": "user",
+      "email": "b@gmail.com",
+      "password": "111111",
+      "login_at": "7/17/2022, 11:26:34 AM",
+      "id": 27
+    },
+    {
+      "user_id": 6,
+      "role": "user",
+      "email": "b@gmail.com",
+      "password": "111111",
+      "login_at": "7/17/2022, 11:32:59 AM",
+      "id": 28
+    },
+    {
+      "user_id": 7,
+      "role": "user",
+      "email": "anh2@gmail.com",
+      "password": "123456",
+      "login_at": "7/17/2022, 4:37:02 PM",
+      "id": 29
+    },
+    {
+      "user_id": 7,
+      "role": "user",
+      "email": "anh2@gmail.com",
+      "password": "123456",
+      "login_at": "7/17/2022, 4:50:39 PM",
+      "id": 30
+    },
+    {
+      "user_id": 7,
+      "role": "user",
+      "email": "anh2@gmail.com",
+      "password": "123456",
+      "login_at": "7/17/2022, 4:50:53 PM",
+      "id": 31
+    },
+    {
+      "user_id": 7,
+      "role": "user",
+      "email": "anh2@gmail.com",
+      "password": "123456",
+      "login_at": "7/17/2022, 5:09:15 PM",
+      "id": 32
+    },
+    {
+      "user_id": 7,
+      "role": "user",
+      "email": "anh2@gmail.com",
+      "password": "123456",
+      "login_at": "7/17/2022, 5:18:59 PM",
+      "id": 33
+    },
+    {
+      "user_id": 7,
+      "role": "user",
+      "email": "anh2@gmail.com",
+      "password": "123456",
+      "login_at": "7/18/2022, 7:23:36 PM",
+      "id": 34
+    },
+    {
+      "user_id": 8,
+      "role": "user",
+      "email": "manh@gmail.com",
+      "password": "111111",
+      "login_at": "7/18/2022, 8:25:44 PM",
+      "id": 35
+    },
+    {
+      "user_id": 8,
+      "role": "user",
+      "email": "manh@gmail.com",
+      "password": "111111",
+      "login_at": "7/18/2022, 8:47:25 PM",
+      "id": 36
+    },
+    {
+      "user_id": 8,
+      "role": "admin",
+      "email": "manh@gmail.com",
+      "password": "111111",
+      "login_at": "7/19/2022, 5:33:52 PM",
+      "id": 37
+    },
+    {
+      "user_id": 8,
+      "role": "admin",
+      "email": "manh@gmail.com",
+      "password": "111111",
+      "login_at": "7/19/2022, 10:48:39 PM",
+      "id": 38
+    },
+    {
+      "user_id": 8,
+      "role": "admin",
+      "email": "manh@gmail.com",
+      "password": "111111",
+      "login_at": "7/20/2022, 11:50:36 AM",
+      "id": 39
+    },
+    {
+      "user_id": 7,
+      "role": "user",
+      "email": "anh2@gmail.com",
+      "password": "123456",
+      "login_at": "7/21/2022, 4:10:01 PM",
+      "id": 40
     }
   ],
   "collection": [
@@ -198,9 +405,9 @@
       "subtle": "AOSM0044",
       "collection_id": 1,
       "prices": 320000,
-      "number": 50,
       "imgFront": "https://product.hstatic.net/200000436739/product/a0ddcb1a-8a15-4b28-973e-baf6900b076e_50ba0323a16a41f19541ff86978f0a2b_master.jpeg",
       "imgBack": "https://product.hstatic.net/200000436739/product/aa4c5674-1772-4b8c-9e89-bd0393430425_0a1b37baa06b4de08d14a31c61369202_grande.jpeg",
+      "number": 50,
       "size": [
         {
           "id": 1,
@@ -245,13 +452,6 @@
       "imgFront": "https://product.hstatic.net/200000436739/product/94_b92123aed64c45e9bfa22b14696945b3_master.jpg",
       "imgBack": "https://product.hstatic.net/200000436739/product/95_copy_5bb6a474ba0048c1bc6628ed67b2fb14_master.jpg",
       "number": 13,
-      "id": 7,
-      "color": [
-        {
-          "idColor": "#603b31",
-          "name_color": "CARAMEL"
-        }
-      ],
       "size": [
         {
           "id": 1,
@@ -260,6 +460,12 @@
         {
           "id": 2,
           "name": "L"
+        }
+      ],
+      "color": [
+        {
+          "idColor": "#603b31",
+          "name_color": "CARAMEL"
         }
       ],
       "gallery": [
@@ -279,7 +485,8 @@
           "id": 4,
           "src": "https://product.hstatic.net/200000436739/product/61_ba82fa5b351640fa91c99431cce8633f_master.jpg"
         }
-      ]
+      ],
+      "id": 7
     },
     {
       "name": "CND SUMMER TEE TAN",
@@ -332,8 +539,8 @@
       "prices": 100000,
       "imgFront": "https://product.hstatic.net/200000436739/product/0db50047-70f4-4bc3-8e1e-9a48be0e49b0_a207335ee455425d9ebca682512e962b_master.jpeg",
       "imgBack": "https://product.hstatic.net/200000436739/product/c59c8964-bc3e-43bd-b34a-666e85267f30_73a56cbd9b724ce79e0ca1ab1babde53_master.jpeg",
-      "size": [],
       "number": 10,
+      "size": [],
       "color": [
         {
           "idColor": "#000000",
@@ -447,6 +654,7 @@
     {
       "name": "CND ESSENTIAL CROPTOP BLACK",
       "subtle": " CR0020",
+      "number": 5,
       "collection_id": 4,
       "prices": 350000,
       "imgFront": "https://product.hstatic.net/200000436739/product/upload_e1c7c18d2a574805afdc9cc8f01dceaa_master.jpg",
@@ -537,6 +745,7 @@
     {
       "name": "CND LAIXE TEE PURPLE - CLT PURPLE",
       "subtle": "",
+      "number": 20,
       "collection_id": 1,
       "prices": 300000,
       "imgFront": "https://product.hstatic.net/200000436739/product/1_b76954f77ea04a3183590011d7e6d2f4_master.jpg",
@@ -568,7 +777,7 @@
         },
         {
           "id": 3,
-          "src": "https://product.hstatic.net/200000436739/product/3_4b98e15957234e0d9c6fc0827276e64f_master.jpgg"
+          "src": "https://product.hstatic.net/200000436739/product/3_4b98e15957234e0d9c6fc0827276e64f_master.jpg"
         },
         {
           "id": 4,
@@ -623,6 +832,7 @@
       "name": "VỚ CND OCTOPUS SOCK",
       "subtle": "ACC00200",
       "collection_id": 9,
+      "number": 20,
       "prices": 180000,
       "imgFront": "https://product.hstatic.net/200000436739/product/upload_126ff935f158411ea62bc777c94b833e_master.jpg",
       "imgBack": "https://product.hstatic.net/200000436739/product/upload_91f23a7103fe40a2933b77a4e0617168_master.jpg",
@@ -670,6 +880,7 @@
       "subtle": "BL001",
       "collection_id": 9,
       "prices": 590000,
+      "number": 33,
       "imgFront": "https://product.hstatic.net/200000436739/product/upload_a01e7ca443bf49928e639aef24c0a613_master.jpg",
       "imgBack": "https://product.hstatic.net/200000436739/product/upload_eb4df53da85e499d95ab8769f7a5e6d9_master.jpg",
       "size": [],
@@ -714,6 +925,7 @@
       "prices": 350000,
       "imgFront": "https://product.hstatic.net/200000436739/product/upload_52a1bf32a4a1415c9d5a8f55aa576159_master.jpg",
       "imgBack": "https://product.hstatic.net/200000436739/product/upload_97877f6123b149b48d76e3ba4d25c24a_master.jpg",
+      "number": 54,
       "size": [],
       "color": [
         {
@@ -736,36 +948,129 @@
         }
       ],
       "id": 20
+    },
+    {
+      "name": "CND Áo Xổ Số - AXS",
+      "subtle": "",
+      "collection_id": 1,
+      "prices": 280000,
+      "imgFront": "https://product.hstatic.net/200000436739/product/106_9a4b8463940b4e1780765be671301b17_master.jpg",
+      "imgBack": "https://product.hstatic.net/200000436739/product/107_ce888055cbd0443cb491fa9e9407554b_master.jpg",
+      "number": "20",
+      "size": [
+        {
+          "id": 10,
+          "name": "S"
+        },
+        {
+          "id": 6,
+          "name": "M"
+        },
+        {
+          "id": 1,
+          "name": "L"
+        }
+      ],
+      "color": [
+        {
+          "idColor": "#ffffffff"
+        }
+      ],
+      "gallery": [
+        {
+          "id": 10,
+          "src": "https://product.hstatic.net/200000436739/product/106_9a4b8463940b4e1780765be671301b17_master.jpg",
+          "gallery": "a"
+        },
+        {
+          "id": 5,
+          "src": "https://product.hstatic.net/200000436739/product/107_ce888055cbd0443cb491fa9e9407554b_master.jpg"
+        },
+        {
+          "id": 7,
+          "src": "https://product.hstatic.net/200000436739/product/108_0cb690d08efe41b49c2ef007501c5f78_master.jpg"
+        },
+        {
+          "id": 7,
+          "src": "https://product.hstatic.net/200000436739/product/109_71284ffbfcf24148abcf9671fdf7bc7a_master.jpg"
+        },
+        {
+          "id": 9,
+          "src": "https://product.hstatic.net/200000436739/product/110_0ede02f19e86480aa1ddfb1e863c20c6_master.jpg"
+        }
+      ],
+      "id": 52
     }
   ],
   "orders": [
     {
-      "id": 15,
+      "id": 34,
       "user_id": 7,
-      "note": "",
-      "create_at": "7/16/2022, 4:31:05 PM"
+      "note": "11",
+      "create_at": "7/18/2022, 8:05:24 PM",
+      "total_money": 620000
     },
     {
-      "id": 99,
+      "id": 38,
       "user_id": 7,
       "note": "",
-      "create_at": "7/16/2022, 4:34:04 PM"
+      "create_at": "7/18/2022, 8:24:42 PM",
+      "total_money": 320000
+    },
+    {
+      "id": 59,
+      "user_id": 7,
+      "note": "",
+      "create_at": "7/21/2022, 5:06:10 PM",
+      "total_money": 320000
+    },
+    {
+      "id": 42,
+      "user_id": 7,
+      "note": "",
+      "create_at": "7/23/2022, 9:27:55 PM",
+      "total_money": 640000
     }
   ],
   "order_detail": [
     {
-      "id": 9,
-      "order_id": 15,
-      "product_id": 14,
+      "id": 70,
+      "order_id": 34,
+      "product_id": 10,
       "number": 1,
-      "color": "#000000"
+      "color": "#bfa18f",
+      "size": "M"
     },
     {
-      "id": 65,
-      "order_id": 99,
+      "id": 74,
+      "order_id": 38,
       "product_id": 1,
       "number": 1,
       "color": "#5280a9",
+      "size": "M"
+    },
+    {
+      "id": 81,
+      "order_id": 59,
+      "product_id": 1,
+      "number": 1,
+      "color": "#5280a9",
+      "size": "M"
+    },
+    {
+      "id": 18,
+      "order_id": 42,
+      "product_id": 1,
+      "number": 1,
+      "color": "#5280a9",
+      "size": "M"
+    },
+    {
+      "id": 52,
+      "order_id": 42,
+      "product_id": 10,
+      "number": 1,
+      "color": "#bfa18f",
       "size": "M"
     }
   ],
@@ -782,7 +1087,7 @@
       "name": "Anh",
       "email": "a@yahoo.com",
       "phoneNumber": "111111",
-      "note": "khong co gi ca",
+      "note": "khong co gi ca 2",
       "status": 0,
       "id": 1
     }
